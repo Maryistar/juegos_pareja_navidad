@@ -22,7 +22,7 @@ class PlayerRequest(BaseModel):
 
 AVAILABLE_NAMES = [
     "katherine", "aledanis", "yennis", "zharick", "maryis",
-    "keithlyn", "gregoris", "maycol", "gerald", "brayan"
+    "keithlyn", "gregoris", "maycol", "gerald", "brayan", "jorge"
 ]
 
 @app.post("/jugar")
