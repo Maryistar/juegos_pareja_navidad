@@ -20,6 +20,8 @@ async function play() {
         return;
     }
 
-    result.innerText = `💘 Tu pareja es: ${data.pareja}`;
+    result.innerText = `💘 Tu pareja es: ${data.pareja}` + "\nMuchas gracias por participar, te recuerdo que el detalle es de: $5000 hasta $10000" +
+        "\npuede ser dulce o cualquier detallito" +
+        "\nY sobre todas estas cosas, vístanse de amor, que es el vínculo perfecto" + "\nColosenses 3:14";
 }
 
