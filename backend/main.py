@@ -4,19 +4,16 @@ from pydantic import BaseModel
 from database import Base, engine, SessionLocal
 from models import Player
 import random
-
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
-from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
 
-# servir estáticos (CSS, JS, imágenes)
-app.mount("/static", StaticFiles(directory="static"), name="static")
-
-# templates HTML
 templates = Jinja2Templates(directory="templates")
+
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/", response_class=HTMLResponse)
 def home(request: Request):

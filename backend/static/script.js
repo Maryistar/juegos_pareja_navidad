@@ -1,7 +1,7 @@
 function play() {
   const name = document.getElementById("name").value;
 
-  fetch("http://localhost:8000/jugar", {
+  fetch("/jugar", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
