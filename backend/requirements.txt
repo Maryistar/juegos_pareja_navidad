@@ -1,4 +1,4 @@
 fastapi
 uvicorn
 sqlalchemy
-jinja2987-7
+jinja2
