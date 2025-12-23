@@ -33,7 +33,7 @@ class PlayerRequest(BaseModel):
     real_name: str
 
 AVAILABLE_NAMES = [
-    "katherine", "aledanis", "yennis", "zharick", "maryis",
+    "katherine", "aledanis", "yennis", "zharick", "maryiis",
     "keithlyn", "gregoris", "maycol", "gerald", "brayan", "jorge"
 ]
 
